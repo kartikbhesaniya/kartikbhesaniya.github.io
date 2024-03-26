@@ -52,16 +52,11 @@
         <!-- Header Start  -->
         <div id="header" class="section header-section">
 
-             <!-- Header Wrap Start  -->
-             <div class="header-wrap" style="background-color: #5B0BC4; height: 40px; padding-left: 45%;" > 
+             <!-- Top View Start  -->
+             <div class="header-wrap" style="background-color: #5B0BC4; height: 40px;" > 
 
-                <div class="header-menu d-none d-lg-block" style="align-items: center;">
-                    <ul class="main-menu">
-                        <li>
-                            <a href="tel:9377711377" style="color: #ffffff;">Call Now :  93777 11377</a>
-                        </li>
-                        
-                    </ul>
+                <div class="header-menu" style="align-items: center; display: flex; justify-content: center; width: 100%; align-self: center;">
+                    <a href="tel:9377711377" style="color: #ffffff;"><b>Call Now :  93777 11377</b></a>
                 </div>
 
                 <!-- Header Meta Start -->
@@ -69,14 +64,14 @@
                 <!-- Header Meta End  -->
 
             </div>
-            <!-- Header Wrap End  -->
+            <!-- Top View End  -->
 
             <div class="container">
 
                 <!-- Header Wrap Start  -->
                 <div class="header-wrap">
 
-                    <div class="header-logo">
+                    <div class="header-logo mt-2">
                         <a href="index.html"><img src="assets/images/logo.svg" alt=""></a>
                     </div>
 
@@ -98,9 +93,20 @@
                         </ul>
                     </div>
 
-                    <!-- Header Meta Start -->
-                   
-                    <!-- Header Meta End  -->
+                                        <!-- Header Meta Start -->
+                                        <div class="header-meta mt-2">
+                           
+                                            <!-- Header Toggle Start -->
+                                            <div class="header-toggle d-lg-none">
+                                                <button data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample">
+                                                    <span></span>
+                                                    <span></span>
+                                                    <span></span>
+                                                </button>
+                                            </div>
+                                            <!-- Header Toggle End -->
+                                        </div>
+                                        <!-- Header Meta End  -->
 
                 </div>
                 <!-- Header Wrap End  -->
@@ -109,7 +115,7 @@
         </div>
         <!-- Header End -->
 
-        <!-- Offcanvas Start-->
+         <!-- Offcanvas Start-->
         <div class="offcanvas offcanvas-start" id="offcanvasExample">
             <div class="offcanvas-header">
                 <!-- Offcanvas Logo Start -->
@@ -119,25 +125,38 @@
                 <!-- Offcanvas Logo End -->
                 <button type="button" class="close-btn" data-bs-dismiss="offcanvas"><i class="flaticon-close"></i></button>
             </div>
-            
+
             <!-- Offcanvas Body Start -->
             <div class="offcanvas-body">
-                <div class="offcanvas-menu"></div>
+                <div class="offcanvas-menu">
+                    <ul class="main-menu">
+                        <li class="active-menu">
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="service.html">Our Services</a>
+                        </li>
+                        <li>
+                            <a href="associate.html">Become A Referral Associate</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
             <!-- Offcanvas Body End -->
         </div>
-        <!-- Offcanvas End -->
-        <!-- Offcanvas End -->
 
 
         <!-- Hero Start -->
-        <div class="section pss-hero-section" style="background-image: url(assets/images/hero-bg1.png);">
+        <div class="section pss-hero-section"  style="background-image: url(assets/images/hero-bg1.png); height: 800px;">
             <!-- <div class="shape-2"></div> -->
             <div class="container">
                 <div class="row align-items-center">
-                    <div style="align-items: center; text-align: center;">
+                    <div style="flex-direction: column;justify-content: center;align-items: center;display: flex;height: 80vh;text-align: center;">
                         <!-- Hero Content Start -->
-                        <div class="hero-content" style="margin-top: 250px;">
+                        <div class="hero-content">
                             <h1 class="title" >Best IEPF Claim Advisor</h1>
                             <p>Helping You to Sort Out Your Unclaimed Physical Shares and Dividend's from IEPF</p>
                             <p><a href="associate.html">Become A Referral Associate</a></p>
@@ -200,66 +219,66 @@
                                 <div class="about-list">
                                     <ul>
                                         <li>
-                                            <span class="about-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hand-index" viewBox="0 0 16 16" style="transform: rotate(90deg); color :#666; margin-right:10px;">
+                                            <span class="about-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hand-index" viewBox="0 0 16 16" style="transform: rotate(90deg); color :#666666; margin-right:10px;">
                                                 <path d="M6.75 1a.75.75 0 0 1 .75.75V8a.5.5 0 0 0 1 0V5.467l.086-.004c.317-.012.637-.008.816.027.134.027.294.096.448.182.077.042.15.147.15.314V8a.5.5 0 1 0 1 0V6.435l.106-.01c.316-.024.584-.01.708.04.118.046.3.207.486.43.081.096.15.19.2.259V8.5a.5.5 0 0 0 1 0v-1h.342a1 1 0 0 1 .995 1.1l-.271 2.715a2.5 2.5 0 0 1-.317.991l-1.395 2.442a.5.5 0 0 1-.434.252H6.035a.5.5 0 0 1-.416-.223l-1.433-2.15a1.5 1.5 0 0 1-.243-.666l-.345-3.105a.5.5 0 0 1 .399-.546L5 8.11V9a.5.5 0 0 0 1 0V1.75A.75.75 0 0 1 6.75 1M8.5 4.466V1.75a1.75 1.75 0 1 0-3.5 0v5.34l-1.2.24a1.5 1.5 0 0 0-1.196 1.636l.345 3.106a2.5 2.5 0 0 0 .405 1.11l1.433 2.15A1.5 1.5 0 0 0 6.035 16h6.385a1.5 1.5 0 0 0 1.302-.756l1.395-2.441a3.5 3.5 0 0 0 .444-1.389l.271-2.715a2 2 0 0 0-1.99-2.199h-.581a5 5 0 0 0-.195-.248c-.191-.229-.51-.568-.88-.716-.364-.146-.846-.132-1.158-.108l-.132.012a1.26 1.26 0 0 0-.56-.642 2.6 2.6 0 0 0-.738-.288c-.31-.062-.739-.058-1.05-.046zm2.094 2.025"/>
                                               </svg>
-                                                <!-- <i class="fas fa-check" style="color: #666;"></i> -->
+                                                <!-- <i class="fas fa-check" style="color: #666666;"></i> -->
                                             </span>
                                             <span class="about-text" style="margin-top: 20px;">Personalized Assistance </span>
                                         </li>
                                         <li>
-                                            <span class="about-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hand-index" viewBox="0 0 16 16" style="transform: rotate(90deg); color :#666; margin-right:10px;">
+                                            <span class="about-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hand-index" viewBox="0 0 16 16" style="transform: rotate(90deg); color :#666666; margin-right:10px;">
                                                 <path d="M6.75 1a.75.75 0 0 1 .75.75V8a.5.5 0 0 0 1 0V5.467l.086-.004c.317-.012.637-.008.816.027.134.027.294.096.448.182.077.042.15.147.15.314V8a.5.5 0 1 0 1 0V6.435l.106-.01c.316-.024.584-.01.708.04.118.046.3.207.486.43.081.096.15.19.2.259V8.5a.5.5 0 0 0 1 0v-1h.342a1 1 0 0 1 .995 1.1l-.271 2.715a2.5 2.5 0 0 1-.317.991l-1.395 2.442a.5.5 0 0 1-.434.252H6.035a.5.5 0 0 1-.416-.223l-1.433-2.15a1.5 1.5 0 0 1-.243-.666l-.345-3.105a.5.5 0 0 1 .399-.546L5 8.11V9a.5.5 0 0 0 1 0V1.75A.75.75 0 0 1 6.75 1M8.5 4.466V1.75a1.75 1.75 0 1 0-3.5 0v5.34l-1.2.24a1.5 1.5 0 0 0-1.196 1.636l.345 3.106a2.5 2.5 0 0 0 .405 1.11l1.433 2.15A1.5 1.5 0 0 0 6.035 16h6.385a1.5 1.5 0 0 0 1.302-.756l1.395-2.441a3.5 3.5 0 0 0 .444-1.389l.271-2.715a2 2 0 0 0-1.99-2.199h-.581a5 5 0 0 0-.195-.248c-.191-.229-.51-.568-.88-.716-.364-.146-.846-.132-1.158-.108l-.132.012a1.26 1.26 0 0 0-.56-.642 2.6 2.6 0 0 0-.738-.288c-.31-.062-.739-.058-1.05-.046zm2.094 2.025"/>
                                               </svg>
-                                                <!-- <i class="fas fa-check" style="color: #666;"></i> -->
+                                                <!-- <i class="fas fa-check" style="color: #666666;"></i> -->
                                             </span>
                                             <span class="about-text"> 100% Guaranteed solution </span>
                                         </li>
                                         <li>
-                                            <span class="about-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hand-index" viewBox="0 0 16 16" style="transform: rotate(90deg); color :#666; margin-right:10px;">
+                                            <span class="about-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hand-index" viewBox="0 0 16 16" style="transform: rotate(90deg); color :#666666; margin-right:10px;">
                                                 <path d="M6.75 1a.75.75 0 0 1 .75.75V8a.5.5 0 0 0 1 0V5.467l.086-.004c.317-.012.637-.008.816.027.134.027.294.096.448.182.077.042.15.147.15.314V8a.5.5 0 1 0 1 0V6.435l.106-.01c.316-.024.584-.01.708.04.118.046.3.207.486.43.081.096.15.19.2.259V8.5a.5.5 0 0 0 1 0v-1h.342a1 1 0 0 1 .995 1.1l-.271 2.715a2.5 2.5 0 0 1-.317.991l-1.395 2.442a.5.5 0 0 1-.434.252H6.035a.5.5 0 0 1-.416-.223l-1.433-2.15a1.5 1.5 0 0 1-.243-.666l-.345-3.105a.5.5 0 0 1 .399-.546L5 8.11V9a.5.5 0 0 0 1 0V1.75A.75.75 0 0 1 6.75 1M8.5 4.466V1.75a1.75 1.75 0 1 0-3.5 0v5.34l-1.2.24a1.5 1.5 0 0 0-1.196 1.636l.345 3.106a2.5 2.5 0 0 0 .405 1.11l1.433 2.15A1.5 1.5 0 0 0 6.035 16h6.385a1.5 1.5 0 0 0 1.302-.756l1.395-2.441a3.5 3.5 0 0 0 .444-1.389l.271-2.715a2 2 0 0 0-1.99-2.199h-.581a5 5 0 0 0-.195-.248c-.191-.229-.51-.568-.88-.716-.364-.146-.846-.132-1.158-.108l-.132.012a1.26 1.26 0 0 0-.56-.642 2.6 2.6 0 0 0-.738-.288c-.31-.062-.739-.058-1.05-.046zm2.094 2.025"/>
                                               </svg>
-                                                <!-- <i class="fas fa-check" style="color: #666;"></i> -->
+                                                <!-- <i class="fas fa-check" style="color: #666666;"></i> -->
                                             </span>
                                             <span class="about-text">Maximum Claims Recovered </span>
                                         </li>
                                         <li>
-                                            <span class="about-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hand-index" viewBox="0 0 16 16" style="transform: rotate(90deg); color :#666; margin-right:10px;">
+                                            <span class="about-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hand-index" viewBox="0 0 16 16" style="transform: rotate(90deg); color :#666666; margin-right:10px;">
                                                 <path d="M6.75 1a.75.75 0 0 1 .75.75V8a.5.5 0 0 0 1 0V5.467l.086-.004c.317-.012.637-.008.816.027.134.027.294.096.448.182.077.042.15.147.15.314V8a.5.5 0 1 0 1 0V6.435l.106-.01c.316-.024.584-.01.708.04.118.046.3.207.486.43.081.096.15.19.2.259V8.5a.5.5 0 0 0 1 0v-1h.342a1 1 0 0 1 .995 1.1l-.271 2.715a2.5 2.5 0 0 1-.317.991l-1.395 2.442a.5.5 0 0 1-.434.252H6.035a.5.5 0 0 1-.416-.223l-1.433-2.15a1.5 1.5 0 0 1-.243-.666l-.345-3.105a.5.5 0 0 1 .399-.546L5 8.11V9a.5.5 0 0 0 1 0V1.75A.75.75 0 0 1 6.75 1M8.5 4.466V1.75a1.75 1.75 0 1 0-3.5 0v5.34l-1.2.24a1.5 1.5 0 0 0-1.196 1.636l.345 3.106a2.5 2.5 0 0 0 .405 1.11l1.433 2.15A1.5 1.5 0 0 0 6.035 16h6.385a1.5 1.5 0 0 0 1.302-.756l1.395-2.441a3.5 3.5 0 0 0 .444-1.389l.271-2.715a2 2 0 0 0-1.99-2.199h-.581a5 5 0 0 0-.195-.248c-.191-.229-.51-.568-.88-.716-.364-.146-.846-.132-1.158-.108l-.132.012a1.26 1.26 0 0 0-.56-.642 2.6 2.6 0 0 0-.738-.288c-.31-.062-.739-.058-1.05-.046zm2.094 2.025"/>
                                               </svg>
-                                                <!-- <i class="fas fa-check" style="color: #666;"></i> -->
+                                                <!-- <i class="fas fa-check" style="color: #666666;"></i> -->
                                             </span>
                                             <span class="about-text">Fastest Execution Time </span>
                                         </li>
                                         <li>
-                                            <span class="about-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hand-index" viewBox="0 0 16 16" style="transform: rotate(90deg); color :#666; margin-right:10px;">
+                                            <span class="about-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hand-index" viewBox="0 0 16 16" style="transform: rotate(90deg); color :#666666; margin-right:10px;">
                                                 <path d="M6.75 1a.75.75 0 0 1 .75.75V8a.5.5 0 0 0 1 0V5.467l.086-.004c.317-.012.637-.008.816.027.134.027.294.096.448.182.077.042.15.147.15.314V8a.5.5 0 1 0 1 0V6.435l.106-.01c.316-.024.584-.01.708.04.118.046.3.207.486.43.081.096.15.19.2.259V8.5a.5.5 0 0 0 1 0v-1h.342a1 1 0 0 1 .995 1.1l-.271 2.715a2.5 2.5 0 0 1-.317.991l-1.395 2.442a.5.5 0 0 1-.434.252H6.035a.5.5 0 0 1-.416-.223l-1.433-2.15a1.5 1.5 0 0 1-.243-.666l-.345-3.105a.5.5 0 0 1 .399-.546L5 8.11V9a.5.5 0 0 0 1 0V1.75A.75.75 0 0 1 6.75 1M8.5 4.466V1.75a1.75 1.75 0 1 0-3.5 0v5.34l-1.2.24a1.5 1.5 0 0 0-1.196 1.636l.345 3.106a2.5 2.5 0 0 0 .405 1.11l1.433 2.15A1.5 1.5 0 0 0 6.035 16h6.385a1.5 1.5 0 0 0 1.302-.756l1.395-2.441a3.5 3.5 0 0 0 .444-1.389l.271-2.715a2 2 0 0 0-1.99-2.199h-.581a5 5 0 0 0-.195-.248c-.191-.229-.51-.568-.88-.716-.364-.146-.846-.132-1.158-.108l-.132.012a1.26 1.26 0 0 0-.56-.642 2.6 2.6 0 0 0-.738-.288c-.31-.062-.739-.058-1.05-.046zm2.094 2.025"/>
                                               </svg>
-                                                <!-- <i class="fas fa-check" style="color: #666;"></i> -->
+                                                <!-- <i class="fas fa-check" style="color: #666666;"></i> -->
                                             </span>
                                             <span class="about-text">Transparent Fee Structure  </span>
                                         </li>
                                         <li>
-                                            <span class="about-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hand-index" viewBox="0 0 16 16" style="transform: rotate(90deg); color :#666; margin-right:10px;">
+                                            <span class="about-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hand-index" viewBox="0 0 16 16" style="transform: rotate(90deg); color :#666666; margin-right:10px;">
                                                 <path d="M6.75 1a.75.75 0 0 1 .75.75V8a.5.5 0 0 0 1 0V5.467l.086-.004c.317-.012.637-.008.816.027.134.027.294.096.448.182.077.042.15.147.15.314V8a.5.5 0 1 0 1 0V6.435l.106-.01c.316-.024.584-.01.708.04.118.046.3.207.486.43.081.096.15.19.2.259V8.5a.5.5 0 0 0 1 0v-1h.342a1 1 0 0 1 .995 1.1l-.271 2.715a2.5 2.5 0 0 1-.317.991l-1.395 2.442a.5.5 0 0 1-.434.252H6.035a.5.5 0 0 1-.416-.223l-1.433-2.15a1.5 1.5 0 0 1-.243-.666l-.345-3.105a.5.5 0 0 1 .399-.546L5 8.11V9a.5.5 0 0 0 1 0V1.75A.75.75 0 0 1 6.75 1M8.5 4.466V1.75a1.75 1.75 0 1 0-3.5 0v5.34l-1.2.24a1.5 1.5 0 0 0-1.196 1.636l.345 3.106a2.5 2.5 0 0 0 .405 1.11l1.433 2.15A1.5 1.5 0 0 0 6.035 16h6.385a1.5 1.5 0 0 0 1.302-.756l1.395-2.441a3.5 3.5 0 0 0 .444-1.389l.271-2.715a2 2 0 0 0-1.99-2.199h-.581a5 5 0 0 0-.195-.248c-.191-.229-.51-.568-.88-.716-.364-.146-.846-.132-1.158-.108l-.132.012a1.26 1.26 0 0 0-.56-.642 2.6 2.6 0 0 0-.738-.288c-.31-.062-.739-.058-1.05-.046zm2.094 2.025"/>
                                               </svg>
-                                                <!-- <i class="fas fa-check" style="color: #666;"></i> -->
+                                                <!-- <i class="fas fa-check" style="color: #666666;"></i> -->
                                             </span>
                                             <span class="about-text">We believe in "Work first pay later" </span>
                                         </li>
                                         <li>
-                                            <span class="about-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hand-index" viewBox="0 0 16 16" style="transform: rotate(90deg); color :#666; margin-right:10px;">
+                                            <span class="about-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hand-index" viewBox="0 0 16 16" style="transform: rotate(90deg); color :#666666; margin-right:10px;">
                                                 <path d="M6.75 1a.75.75 0 0 1 .75.75V8a.5.5 0 0 0 1 0V5.467l.086-.004c.317-.012.637-.008.816.027.134.027.294.096.448.182.077.042.15.147.15.314V8a.5.5 0 1 0 1 0V6.435l.106-.01c.316-.024.584-.01.708.04.118.046.3.207.486.43.081.096.15.19.2.259V8.5a.5.5 0 0 0 1 0v-1h.342a1 1 0 0 1 .995 1.1l-.271 2.715a2.5 2.5 0 0 1-.317.991l-1.395 2.442a.5.5 0 0 1-.434.252H6.035a.5.5 0 0 1-.416-.223l-1.433-2.15a1.5 1.5 0 0 1-.243-.666l-.345-3.105a.5.5 0 0 1 .399-.546L5 8.11V9a.5.5 0 0 0 1 0V1.75A.75.75 0 0 1 6.75 1M8.5 4.466V1.75a1.75 1.75 0 1 0-3.5 0v5.34l-1.2.24a1.5 1.5 0 0 0-1.196 1.636l.345 3.106a2.5 2.5 0 0 0 .405 1.11l1.433 2.15A1.5 1.5 0 0 0 6.035 16h6.385a1.5 1.5 0 0 0 1.302-.756l1.395-2.441a3.5 3.5 0 0 0 .444-1.389l.271-2.715a2 2 0 0 0-1.99-2.199h-.581a5 5 0 0 0-.195-.248c-.191-.229-.51-.568-.88-.716-.364-.146-.846-.132-1.158-.108l-.132.012a1.26 1.26 0 0 0-.56-.642 2.6 2.6 0 0 0-.738-.288c-.31-.062-.739-.058-1.05-.046zm2.094 2.025"/>
                                               </svg>
-                                                <!-- <i class="fas fa-check" style="color: #666;"></i> -->
+                                                <!-- <i class="fas fa-check" style="color: #666666;"></i> -->
                                             </span>
                                             <span class="about-text"> We are professional And Experienced Investment Recovery Consultants</span>
                                         </li>
                                         <li>
-                                            <span class="about-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hand-index" viewBox="0 0 16 16" style="transform: rotate(90deg); color :#666; margin-right:10px;">
+                                            <span class="about-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hand-index" viewBox="0 0 16 16" style="transform: rotate(90deg); color :#666666; margin-right:10px;">
                                                 <path d="M6.75 1a.75.75 0 0 1 .75.75V8a.5.5 0 0 0 1 0V5.467l.086-.004c.317-.012.637-.008.816.027.134.027.294.096.448.182.077.042.15.147.15.314V8a.5.5 0 1 0 1 0V6.435l.106-.01c.316-.024.584-.01.708.04.118.046.3.207.486.43.081.096.15.19.2.259V8.5a.5.5 0 0 0 1 0v-1h.342a1 1 0 0 1 .995 1.1l-.271 2.715a2.5 2.5 0 0 1-.317.991l-1.395 2.442a.5.5 0 0 1-.434.252H6.035a.5.5 0 0 1-.416-.223l-1.433-2.15a1.5 1.5 0 0 1-.243-.666l-.345-3.105a.5.5 0 0 1 .399-.546L5 8.11V9a.5.5 0 0 0 1 0V1.75A.75.75 0 0 1 6.75 1M8.5 4.466V1.75a1.75 1.75 0 1 0-3.5 0v5.34l-1.2.24a1.5 1.5 0 0 0-1.196 1.636l.345 3.106a2.5 2.5 0 0 0 .405 1.11l1.433 2.15A1.5 1.5 0 0 0 6.035 16h6.385a1.5 1.5 0 0 0 1.302-.756l1.395-2.441a3.5 3.5 0 0 0 .444-1.389l.271-2.715a2 2 0 0 0-1.99-2.199h-.581a5 5 0 0 0-.195-.248c-.191-.229-.51-.568-.88-.716-.364-.146-.846-.132-1.158-.108l-.132.012a1.26 1.26 0 0 0-.56-.642 2.6 2.6 0 0 0-.738-.288c-.31-.062-.739-.058-1.05-.046zm2.094 2.025"/>
                                               </svg>
-                                                <!-- <i class="fas fa-check" style="color: #666;"></i> -->
+                                                <!-- <i class="fas fa-check" style="color: #666666;"></i> -->
                                             </span>
                                             <span class="about-text"> When You Choose Us, "YOU" will feel the benefit of 15 years our experience </span>
                                         </li>
@@ -297,72 +316,72 @@
                                     <ul>
                                         <li>
                                             <span class="about-icon"><i class="fas fa-circle"></i></span>
-                                            <span style="color: #666;">Recover shares from IEPF </span>
+                                            <span style="color: #666666;">Recover shares from IEPF </span>
                                         </li>
 
                                         <li>
                                             <span class="about-icon"><i class="fas fa-circle"></i></span>
-                                            <span style="color: #666;">Physical  shares to demat shares </span>
+                                            <span style="color: #666666;">Physical  shares to demat shares </span>
                                         </li>
 
                                         <li>
                                             <span class="about-icon"><i class="fas fa-circle"></i></span>
-                                            <span style="color: #666;">Share transfer recovery</span>
+                                            <span style="color: #666666;">Share transfer recovery</span>
                                         </li>
 
                                         <li>
                                             <span class="about-icon"><i class="fas fa-circle"></i></span>
-                                            <span style="color: #666;">Dividend recovery from IEPF </span>
+                                            <span style="color: #666666;">Dividend recovery from IEPF </span>
                                         </li>
 
                                         <li>
                                             <span class="about-icon"><i class="fas fa-circle"></i></span>
-                                            <span style="color: #666;">Transmission of shares </span>
+                                            <span style="color: #666666;">Transmission of shares </span>
                                         </li>
 
                                         <li>
                                             <span class="about-icon"><i class="fas fa-circle"></i></span>
-                                            <span style="color: #666;">Issue duplicate shares</span>
+                                            <span style="color: #666666;">Issue duplicate shares</span>
                                         </li>
 
                                         <li>
                                             <span class="about-icon"><i class="fas fa-circle"></i></span>
-                                            <span style="color: #666;">Dematerialization of shares </span>
+                                            <span style="color: #666666;">Dematerialization of shares </span>
                                         </li>
 
                                         <li>
                                             <span class="about-icon"><i class="fas fa-circle"></i></span>
-                                            <span style="color: #666;">Update address </span>
+                                            <span style="color: #666666;">Update address </span>
                                         </li>
 
                                         <li>
                                             <span class="about-icon"><i class="fas fa-circle"></i></span>
-                                            <span style="color: #666;">Update signature </span>
+                                            <span style="color: #666666;">Update signature </span>
                                         </li>
 
                                         <li>
                                             <span class="about-icon"><i class="fas fa-circle"></i></span>
-                                            <span style="color: #666;">Update KYC</span>
+                                            <span style="color: #666666;">Update KYC</span>
                                         </li>
 
                                         <li>
                                             <span class="about-icon"><i class="fas fa-circle"></i></span>
-                                            <span style="color: #666;"> Add/ Update nominee for your investments </span>
+                                            <span style="color: #666666;"> Add/ Update nominee for your investments </span>
                                         </li>
 
                                         <li>
                                             <span class="about-icon"><i class="fas fa-circle"></i></span>
-                                            <span style="color: #666;">Loss of share certificates </span>
+                                            <span style="color: #666666;">Loss of share certificates </span>
                                         </li>
 
                                         <li>
                                             <span class="about-icon"><i class="fas fa-circle"></i></span>
-                                            <span style="color: #666;">Change of address </span>
+                                            <span style="color: #666666;">Change of address </span>
                                         </li>
 
                                         <li>
                                             <span class="about-icon"><i class="fas fa-circle"></i></span>
-                                            <span style="color: #666;">Recovery of mutual funds</span>
+                                            <span style="color: #666666;">Recovery of mutual funds</span>
                                         </li>                                        
 
                                     </ul>
@@ -416,7 +435,7 @@
                                         </div>
                                         <div class="contact-info-text">
                                             <h4 class="title">Contact Number</h4>
-                                            <p><a href="tel:9377711377" style="color: #666;">+91 937 771 1377</a></p>
+                                            <p><a href="tel:9377711377" style="color: #666666;">+91 937 771 1377</a></p>
                                         </div>
                                     </div>
                                     <!-- Contact Info Item End -->
@@ -431,7 +450,7 @@
                                         </div>
                                         <div class="contact-info-text">
                                             <h4 class="title">Our Mail</h4>
-                                            <p><a href="mailto:info.physicalsharesolution@gmail.com" style="color: #666;">info.physicalsharesolution@gmail.com</a></p>
+                                            <p><a href="mailto:info.physicalsharesolution@gmail.com" style="color: #666666;">info.physicalsharesolution@gmail.com</a></p>
                                         </div>
                                     </div>
                                     <!-- Contact Info Item End -->
@@ -614,7 +633,7 @@
                                 <ul>
                                     <li>
                                         <div class="info-icon">
-                                            <i><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16" style="color: #666;">
+                                            <i><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16" style="color: #666666;">
                                                 <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
                                               </svg></i>
                                         </div>
@@ -624,7 +643,7 @@
                                     </li>
                                     <li>
                                         <div class="info-icon">
-                                            <i><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16" style="color: #666;">
+                                            <i><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16" style="color: #666666;">
                                                 <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
                                               </svg></i>
                                         </div>
@@ -634,7 +653,7 @@
                                     </li>
                                     <!-- <li>
                                         <div class="info-icon">
-                                            <i><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16" style="color: #666;">
+                                            <i><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16" style="color: #666666;">
                                                 <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
                                                 <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
                                               </svg></i>
@@ -675,19 +694,38 @@
     
 
         <!-- back to top start -->
-        <a href="#" class="up-button">
+        <!-- <a href="#" class="up-button">
             <i class="fas fa-arrow-up"></i>
-          </a>
+          </a> -->
         <!-- back to top end -->
 
         <a href="#" class="whatsapp-icon">
             <img src="assets/images/Whatsapp.png">
             <!-- <i class="fab fa-whatsapp"></i> -->
-          </a>
+        </a>
+
+        <div class="social-icon social">
+            <!-- <a><img src="assets/images/Whatsapp.png"></a> -->
+            <p><a href="#"><i class="fab fa-facebook-f"></i></a></p>
+            <p><a href="#"><i class="fab fa-instagram"></i></a></p>
+            <p><a href="#"><i class="fab fa-linkedin-in"></i></a></p>
+            <p><a href="#"><i class="fab fa-youtube"></i></a></p>
+            <p><a href="#"><i class="fab fa-twitter"></i></a></p>
+        </div>
 
     </div>
 
 
+
+    <!-- <div class="footer-social">
+        <ul class="social">
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        </ul>
+    </div> -->
  
 
     <!-- JS
